@@ -1,0 +1,61 @@
+title: Japanese novel template # TODO
+author: フジ・ナカハラ
+description: Write description # TODO
+url: https://fuji-nakahara.page
+baseurl: /japanese-novel-template # TODO
+version: 0.0.0
+timezone: Asia/Tokyo
+lang: ja_JP
+
+# Build settings
+markdown: FujiMarkdown
+theme: jekyll-theme-fuji
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Rakefile
+  - package.json
+  - package-lock.json
+  - prh.yml
+
+# Front Matter defaults
+permalink: none
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: novel
+
+# Theme settings
+homepage: https://fuji-nakahara.page/
+repository: fuji-nakahara/japanese-novel-template # TODO
+google_analytics: UA-118273401-1
+show_ebooks_from_github_releases: true
+reverse_posts_order: false
+show_excerpts: false
+show_date: true
+date_format: "%Y年%m月%d日"
+header_pages: []
+
+# SEO
+twitter:
+  username: fuji_nakahara
+
+# Ebook settings
+ebook:
+  file_name: japanese-novel-template # TODO
+  page_progression_direction: rtl
+
+# Deploy settings
+kakuyomu:
+  work_id: # TODO
+narou:
+  ncode: # TODO
