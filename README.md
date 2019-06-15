@@ -1,14 +1,11 @@
 # Japanese novel template
 
-TODO: Write description.
+TODO: Change the title and write your novel's description.
 
 ## Usage
 
 ### Setup
 
-    $ git clone https://github.com/fuji-nakahara/japanese-novel-template.git YOUR_NOVEL_TITLE
-    $ cd YOUR_NOVEL_TITLE
-    $ git remote set-url origin YOUR_REMOTE_REPOSITORY
     $ bundle install && npm install
     $ git grep TODO # and fix them
 
