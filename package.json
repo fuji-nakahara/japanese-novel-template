@@ -4,7 +4,7 @@
     "lint": "textlint _drafts _posts"
   },
   "devDependencies": {
-    "textlint": "2.x",
+    "textlint": "11.x",
     "textlint-rule-preset-fuji": "github:fuji-nakahara/textlint-rule-preset-fuji",
     "textlint-rule-prh": "5.x"
   }
