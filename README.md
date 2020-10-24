@@ -7,6 +7,7 @@ TODO: Change the title and write your novel's description.
 ### Setup
 
     $ bundle install
+    $ npm install
     $ git grep TODO # and fix them
 
 ### Build and release ebook
